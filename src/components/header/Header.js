@@ -3,7 +3,8 @@ import "./Heaedr.css";
 function Header() {
   return (
     <div>
-      <nav>hello form nav</nav>
+      <div className="header--main--container"></div>;
+      {/* <div className="header--search--container"></div> */}
     </div>
   );
 }

@@ -32,7 +32,7 @@ function SignIn() {
           </button>
 
           <p className="signin--page--question">
-            Do not have an account yet plaese
+            Do not have an account yet plaese{" "}
             <a className="link" href="/signup">
               Sign up.
             </a>

@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 import "./SignUp.css";
 import api from "../../auth/api";
-import ShoppingImg from "../../assets/images/shopping.png";
-function SignUp(e) {
-  // function(){
-  //   e.preventDefault();
-  // }
+
+function SignUp() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
@@ -37,7 +34,7 @@ function SignUp(e) {
 
   return (
     <div className="signUp--main--container">
-      <img className="signup--img" src={ShoppingImg} alt="" />
+      {/* <img className="signup--img" src={ShoppingImg} alt="" /> */}
 
       <div className="right--container">
         <h1 className="signup--title"> Sign Up</h1>
@@ -69,7 +66,6 @@ function SignUp(e) {
             type="number"
             required
             placeholder="Tel: +998-00-000-00-00"
-            maxlength="11"
             value={phoneNumber}
             onChange={(e) => setPhoneNumber(e.target.value)}
           />
@@ -79,8 +75,6 @@ function SignUp(e) {
             type="password"
             required
             placeholder="Xafsizlik paroli"
-            minLength="8"
-            maxLength="1024"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
@@ -90,8 +84,6 @@ function SignUp(e) {
             type="password"
             required
             placeholder="Parolni qayta kiriting"
-            minLength="8"
-            maxLength="1024"
             value={passwordConfirm}
             onChange={(e) => setPpasswordConfirm(e.target.value)}
           />
@@ -102,7 +94,7 @@ function SignUp(e) {
         </form>
         <p className="signup--page--question">
           {" "}
-          If you have an account please{" "}
+          If you have an account please
           <a className="link" href="/signin">
             Sign In.
           </a>{" "}

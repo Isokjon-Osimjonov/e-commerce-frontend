@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./SignUp.css";
 import api from "../../auth/api";
-
+import ShoppingImg from "../../assets/images/shopping.png";
 function SignUp() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -34,7 +34,7 @@ function SignUp() {
 
   return (
     <div className="signUp--main--container">
-      {/* <img className="signup--img" src={ShoppingImg} alt="" /> */}
+      <img className="signup--img" src={ShoppingImg} alt="" />
 
       <div className="right--container">
         <h1 className="signup--title"> Sign Up</h1>

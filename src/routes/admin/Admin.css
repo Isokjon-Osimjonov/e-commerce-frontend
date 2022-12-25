@@ -1,0 +1,8 @@
+.admin--main--container {
+  width: 1920px;
+  height: 975px;
+  margin: 0px auto;
+  display: flex;
+  /* position: relative; */
+  background-color: green;
+}

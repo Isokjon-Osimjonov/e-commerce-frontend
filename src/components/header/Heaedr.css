@@ -1,20 +1,78 @@
- .header--main--container {
-     width: 85%;
-     height: 75px;
-     background-color: #ffffff;
-     border-radius: 15px;
-     margin: auto;
-     margin-bottom: 10px;
-     box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.20);
+.header--main--container {
+  width: 75%;
+  height: 75px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin: auto;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-   
- } 
+.header--logo {
+  width: 200px;
+  height: 100%;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header--logo > h1 {
+  font-size: 65px;
+  font-family: nunito;
+  font-weight: 900;
+}
+.header--components {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: red;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
- .header--search--container{
-    width: 70%;
-    height: 70px;
-    background-color: #ffffff;
-    margin:  auto;
-    box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.20);
-    border-radius: 15px;
- }
+.header--search {
+  width: 500px;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 10px;
+}
+.header--search > input {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+.search--icon {
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.cart--icon {
+  font-size: 26px;
+  cursor: pointer;
+  color: gold;
+}
+.user--info {
+  width: 100px;
+  height: 50px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user--icon {
+  font-size: 30px;
+  cursor: pointer;
+  color: gold;
+}

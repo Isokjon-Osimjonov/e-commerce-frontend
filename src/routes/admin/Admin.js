@@ -13,6 +13,7 @@ function Admin() {
 
       <div className="admin--main--content--container">
         <AdminHeader />
+
         <Switch>
           {SIDEBAR_STATIC_DATA?.map((sidebar__item) => (
             <Route

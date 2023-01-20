@@ -2,7 +2,7 @@
   width: 100%;
   height: 100%;
   min-height: 99vh;
-  background-color: #edf6fe;
+  background-color: #edf6fe63;
   padding-top: 8px;
 }
 
@@ -11,3 +11,9 @@
 /* 
 "'Reading' Homer through Oral Tradition," by John Miles Foley; College Literature, Vol. 34, No. 2, Reading Homer in the 21st Century (Spring, 2007).
 The Invention of Homer, by M. L. West; The Classical Quarterly, New Series, Vol. 49, No. 2 (1999), pp. 364-382. */
+.div {
+  width: 80%;
+  height: 400px;
+  background-color: green;
+  margin: 0px auto;
+}

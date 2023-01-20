@@ -1,35 +1,38 @@
+import CreateNewProduct from "../admin-sidebar-components/create-product/CreateNewProduct";
+import AllProduct from "../admin-sidebar-components/all-products/AllProducts";
 export const SIDEBAR_STATIC_DATA = [
   {
     id: 0,
-    sidebarTitle: "Create new product",
-    icon: "",
-    route: "create-new-product",
-    component: "",
-  },
-  {
-    id: 1,
-    sidebarTitle: "Settings",
-    icon: "",
-    route: "settings",
-    component: "",
-  },
-  {
-    id: 2,
-    sidebarTitle: "Boshqaruv",
+    sidebarTitle: "Dashboard",
     icon: "",
     route: "dashboard",
     component: "",
   },
   {
+    id: 1,
+    sidebarTitle: "New product",
+    icon: "",
+    route: "newproduct",
+    component: <CreateNewProduct />,
+  },
+  {
+    id: 2,
+    sidebarTitle: "All products",
+    icon: "",
+    route: "allproducts",
+    component: <AllProduct />,
+  },
+
+  {
     id: 3,
-    sidebarTitle: "Boshqaruv",
+    sidebarTitle: "All products",
     icon: "",
     route: "dashboard",
     component: "",
   },
   {
     id: 4,
-    sidebarTitle: "Boshqaruv",
+    sidebarTitle: "All products",
     icon: "",
     route: "dashboard",
     component: "",

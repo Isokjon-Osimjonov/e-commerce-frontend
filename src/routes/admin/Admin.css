@@ -4,5 +4,10 @@
   margin: 0px auto;
   display: flex;
   /* position: relative; */
-  background-color: green;
+  /* background-color: green; */
+}
+
+.admin--main--content--container {
+  display: flex;
+  flex-direction: column;
 }
